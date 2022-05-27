@@ -46,7 +46,9 @@
                         {{ __('Forgot your password?') }}
                     </a>
                 @endif
-
+                <x-button-link class="ml-4" href="/auth/redirect">
+                    {{ __('Login Github') }}
+                </x-button-link>
                 <x-button class="ml-3">
                     {{ __('Log in') }}
                 </x-button>
